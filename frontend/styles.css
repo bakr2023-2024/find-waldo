@@ -1,0 +1,42 @@
+#targetBox {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+}
+.targetCharacter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.targetCharacter:hover {
+  background-color: gold;
+}
+.targetCharacter img {
+  width: 35%;
+  height: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#wallpaper {
+  width: 100%;
+}
+#stopwatch {
+  font-size: 2rem;
+  position: fixed;
+  color: yellow;
+  top: 0;
+  right: 0;
+}
+#score {
+  font-size: 3rem;
+  color: yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

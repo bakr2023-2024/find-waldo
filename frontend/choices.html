@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #imageContainer {
+        width: 60%;
+        margin: 0 auto;
+      }
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      #image {
+        width: 100%;
+      }
+      select,
+      button {
+        display: block;
+        font-size: 2rem;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Photo Tagging Game</h1>
+    <div id="imageContainer">
+      <img id="image" />
+    </div>
+    <select id="options">
+      <option value="" disabled selected>(select-a-map)</option>
+    </select>
+    <button id="confirmBtn">Confirm</button>
+    <script src="choices.js"></script>
+  </body>
+</html>
